@@ -3,7 +3,7 @@ import random
 class NonRepRandom:
     def __init__(self, max = 9): # default value of 9 because that is what is needed for this
         self.max = max
-        nums = list(range(0,max+1)) # gernate a list from [0...9]
+        self.nums = list(range(0,max+1)) # gernate a list from [0...9]
 
     def generateNum(self):
         if self.nums.len == 0 :
